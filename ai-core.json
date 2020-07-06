@@ -3,9 +3,12 @@
         ["*", [":v", ":V", "quedaste domado bro :v", "domado", "domated", "siempre andan fantaseando con su dios :V", "deja de suponer", "ja domado", "XD", "**?**", "?"]]
     ]],
     ["lol", 0, [
-        ["*", ["¿Qué te da risa?"]]
+        ["*", ["https://media.tenor.com/images/1d3e261b0447150bad4aebe8de786d58/tenor.gif"]]
     ]],
     ["ja ?ja", 0, [
+        ["*", ["goto lol"]]
+    ]],
+    ["xd ?xd", 0, [
         ["*", ["goto lol"]]
     ]],
     ["je ?je", 0, [
@@ -16,5 +19,8 @@
     ]],
     ["cesar", 0, [
         ["*", ["Ya desmenti que no me llamo cesar y que no vivo en nicaragua asi que yo me rio mientras doxean a otra persona"]]
-    ]]
+    ]],
+    ["teatros de comedia", 0, [
+        ["*", ["Anteriormente yo antes hiba a teatros de comedia y la gente se reía"]]
+    ]],
 ]
