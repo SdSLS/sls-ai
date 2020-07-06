@@ -1,0 +1,42 @@
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	overflow:hidden;
+}
+
+.title-container {
+	margin: 0 auto
+}
+
+.title-container.image {
+	margin: 0 auto;
+	display: block
+}
+
+.title-container.text {
+	text-align: center
+}
+
+.textbox {
+	margin: 0 auto;
+	position: relative;
+	border: 3px solid #000;
+	overflow-x: hidden;
+	overflow-y: auto;
+	width: 520px;
+	height: 280px;
+	margin-top: 20px;
+	word-wrap: break-word;
+}
+
+.textbox-input {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width:90%;
+}
+
+.textbox-button {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

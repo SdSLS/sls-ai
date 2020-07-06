@@ -1,0 +1,36 @@
+<head>
+	<script src="ass/jquery.min.js"></script>
+	<link rel="stylesheet" href="ass/style.css" type="text/css" />
+</head>
+<body>
+	<div class="title-container">
+		<img src="ass/logo.png" class="title-container image" />
+		<p class="title-container text"><strong>SLS AI</strong></p>
+	</div>
+
+	<!-- Main -->
+	<div class="textbox">
+		<i id="lul" style="font-size:12px;margin-left:50px">Chatea interactivamente con SLS, empieza la conversación abajo.</i>
+		<input class="textbox-input" name="send" type="text" id="message" placeholder="Tu mensaje...">
+		<button class="textbox-button" id="sendmessage">Enviar</button>
+	</div>
+</body>
+
+<script>
+	$("#message").keyup(function(key){
+		if(key.keyCode == 13) {
+			if(!$("#message").val()) return;
+			if($("#lul").length) $("#lul").fadeOut(300, () => {
+				$("#lul").remove();
+				createMessage("You", $("#message").val());
+
+				// Clear input
+				$(this).val('');
+			});
+		}
+	});
+
+	function createMessage(creator, string) {
+		return $(".textbox").append(`<label for="chatmessage">${creator}</label><p id="chatmessage">${string}</p><hr>`);
+	}
+</script>
